@@ -1,0 +1,22 @@
+.tabBar {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.tabBar button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.tabBar button.active {
+    background: #fff;
+    border-bottom: 2px solid #0073e6;
+}
+
+.tabBar button:not(:last-child) {
+    border-right: none;
+}

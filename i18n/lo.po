@@ -1,0 +1,278 @@
+# 
+# Translators:
+# Philip Larsen Donnelly, 2021
+# Viktor Varland <viktor@dhis2.org>, 2021
+# Thuy Nguyen <thuynguyen@hispvietnam.org>, 2021
+# Phouthasinh PHEUAYSITHIPHONE, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2021-10-07T11:59:16.763Z\n"
+"PO-Revision-Date: 2021-11-04 13:40+0000\n"
+"Last-Translator: Phouthasinh PHEUAYSITHIPHONE, 2023\n"
+"Language-Team: Lao (https://app.transifex.com/hisp-uio/teams/100509/lo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Not authorized"
+msgstr ""
+
+msgid ""
+"You don't have access to the Data Approval App. Contact a system "
+"administrator to request access."
+msgstr ""
+
+msgid "Acceptance failed: {{error}}"
+msgstr ""
+
+msgid "Accept"
+msgstr "ຍອມຮັບ"
+
+msgid "Approval saved"
+msgstr ""
+
+msgid "Approve"
+msgstr "​ອະນຸມັດ"
+
+msgid "Approving {{count}} data sets"
+msgid_plural "Approving {{count}} data sets"
+msgstr[0] ""
+
+msgid "Approving {{count}} data set"
+msgid_plural "Approving {{count}} data set"
+msgstr[0] ""
+
+msgid "Are you sure you want to approve this data?"
+msgstr ""
+
+msgid "There was a problem saving this approval"
+msgstr ""
+
+msgid ""
+"This data couldn’t be approved. Try again, or contact your system "
+"administrator."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Unacceptance failed: {{error}}"
+msgstr ""
+
+msgid "Unaccept"
+msgstr "ຍົກເລິກການຮັບຮອງ"
+
+msgid "Unapproval failed: {{error}}"
+msgstr ""
+
+msgid "Unapprove"
+msgstr "​ຍົກເລິກການອະນຸມັດ"
+
+msgid "This workflow does not contain any data sets."
+msgstr ""
+
+msgid "Choose a data set to review"
+msgstr ""
+
+msgid ""
+"{{- workflowName}} has multiple data sets. Choose a data set from the tabs "
+"above."
+msgstr ""
+
+msgid "Loading data set"
+msgstr ""
+
+msgid "There was a problem displaying this data set"
+msgstr ""
+
+msgid ""
+"This data set couldn't be loaded or displayed. Try again, or contact your "
+"system administrator."
+msgstr ""
+
+msgid "Retry loading data set"
+msgstr ""
+
+msgid "This data set doesn't have any data for {{- period}} in {{- orgUnit}}."
+msgstr ""
+
+msgid "1 data set"
+msgstr ""
+
+msgid "{{dataSetsCount}} data sets"
+msgstr ""
+
+msgid "Approved {{- dateTimeStr}}"
+msgstr ""
+
+msgid "Ready for approval"
+msgstr "​ກຽມ​ພ້ອມ​ເພື່ອ​ການ​ອະນຸມັດ"
+
+msgid "Waiting for lower level approval"
+msgstr ""
+
+msgid "Waiting for higher level approval"
+msgstr ""
+
+msgid "Approval by {{- name}} accepted {{timeAgo}}"
+msgstr ""
+
+msgid "Approved by {{- name}} {{timeAgo}}"
+msgstr ""
+
+msgid "Approved at higher level"
+msgstr ""
+
+msgid "You do not have authority to approve data"
+msgstr ""
+
+msgid "Cannot be approved"
+msgstr ""
+
+msgid "Could not retrieve approval status"
+msgstr ""
+
+msgid "January"
+msgstr "ມັງກອນ"
+
+msgid "February"
+msgstr "ກຸມພາ"
+
+msgid "March"
+msgstr "ມີນາ"
+
+msgid "April"
+msgstr "ເມສາ"
+
+msgid "May"
+msgstr "ພຶດສະພາ"
+
+msgid "June"
+msgstr "ມີຖຸນາ"
+
+msgid "July"
+msgstr "ກໍລະກົດ"
+
+msgid "August"
+msgstr "ສິງຫາ"
+
+msgid "September"
+msgstr "ກັນຍາ"
+
+msgid "October"
+msgstr "ຕຸລາ"
+
+msgid "November"
+msgstr "ພະຈິກ"
+
+msgid "December"
+msgstr "ທັນວາ"
+
+msgid "Week {{weekNumber}}"
+msgstr ""
+
+msgid "Bi-Week {{biWeekNumber}}"
+msgstr ""
+
+msgid "Daily"
+msgstr "ທຸກໆມື້"
+
+msgid "Weekly"
+msgstr "ເປັນອາທິດ"
+
+msgid "Weekly (Start Wednesday)"
+msgstr ""
+
+msgid "Weekly (Start Thursday)"
+msgstr ""
+
+msgid "Weekly (Start Saturday)"
+msgstr ""
+
+msgid "Weekly (Start Sunday)"
+msgstr ""
+
+msgid "Bi-weekly"
+msgstr "ສອງອາທິດຕໍ່ຄັ້ງ"
+
+msgid "Monthly"
+msgstr "ລາຍເດືອນ"
+
+msgid "Bi-monthly"
+msgstr "ທຸກໆສອງເດືອນ"
+
+msgid "Quarterly"
+msgstr "ໄຕມາດ"
+
+msgid "Six-monthly"
+msgstr "ແຕ່ລະ 6 ເດືອນ"
+
+msgid "Six-monthly April"
+msgstr "ແຕ່ລະຫົກເດືອນ ແລະ ເດືອນເມສາ"
+
+msgid "Yearly"
+msgstr "ລາຍປີ"
+
+msgid "Financial year (Start November)"
+msgstr ""
+
+msgid "Financial year (Start October)"
+msgstr "ສົກປີງົບປະມານ (ເລີ່ມແຕ່ເດືອນຕຸລາ)"
+
+msgid "Financial year (Start July)"
+msgstr "ສົກປີງົບປະມານ (ເລີ່ມແຕ່ເດືອນມິຖຸນາ)"
+
+msgid "Financial year (Start April)"
+msgstr "ສົກປີງົບປະມານ (ເລີ່ມແຕ່ເດືອນເມສາ)"
+
+msgid "Clear selections"
+msgstr ""
+
+msgid "Waiting for approval"
+msgstr ""
+
+msgid "Approved"
+msgstr "​ໄດ້ຮັບອະນຸມັດແລ້ວ"
+
+msgid "Failed to load approval state"
+msgstr ""
+
+msgid "Choose a period first"
+msgstr ""
+
+msgid "Choose a workflow and period first"
+msgstr ""
+
+msgid "Organisation Unit"
+msgstr "ຫົວໜ່ວຍ ການຈັດຕັ້ງ"
+
+msgid "Choose an organisation unit"
+msgstr ""
+
+msgid "Period"
+msgstr "ຊ່ວງເວລາ"
+
+msgid "Choose a period"
+msgstr ""
+
+msgid "Choose a workflow first"
+msgstr ""
+
+msgid "Workflow"
+msgstr ""
+
+msgid "Choose a workflow"
+msgstr ""
+
+msgid "No workflows found. None may exist, or you may not have access to any."
+msgstr ""
+
+msgid "Could not load approval data"
+msgstr ""
+
+msgid "Retry loading approval data"
+msgstr ""

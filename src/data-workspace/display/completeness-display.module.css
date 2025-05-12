@@ -1,0 +1,108 @@
+.container {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start;
+}
+
+.container1 {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start;
+}
+
+.tableContainer {
+    overflow: hidden;
+    border-radius: 12px;
+    width: 100%; /* Full width for stacked layout */
+    font-size: 13px;
+    margin-bottom: 20px; /* Space between tables */
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+.table thead th {
+    background-color: #d2ebfd;
+    color: #0a3069;
+    padding: 5px 5px;
+    border: 0.15em solid #d5dde5;
+    text-align: center;
+    font-weight: normal;
+}
+
+.table tbody td {
+    border: 0.15em solid #d5dde5;
+    padding: 8px 10px;
+    color: rgb(82, 82, 82);
+    color: #011c44;
+}
+
+.leftAlign {
+    text-align: left;
+}
+.rightAlign {
+    text-align: right;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #fff;
+}
+
+/* .centeredCell {
+    text-align: right;
+} */
+
+.headerContainer {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between title and key */
+    align-items: center; /* Align items vertically */
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #011c44;
+    margin-bottom: 0;
+}
+
+.keyContainer {
+    display: flex; /* Horizontal arrangement of key items */
+    gap: 16px; /* Spacing between key items */
+    align-items: center; /* Align items vertically */
+    font-size: 14px;
+    color: #011c44;
+}
+
+.keyItem {
+    display: flex; /* Align box and text horizontally */
+    align-items: center;
+    gap: 8px; /* Space between box and text */
+}
+
+.keyBox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ddd;
+}
+

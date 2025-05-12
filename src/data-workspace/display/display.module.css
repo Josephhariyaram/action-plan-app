@@ -1,0 +1,106 @@
+.displayContainer {
+    display: flex;
+    gap: 1rem;
+    padding-top: 10px;
+}
+
+.orgUnitList {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-shrink: 0; /* Prevents shrinking on small screens */
+}
+
+.tableContainer {
+    display: flex;
+    width: 90%;
+    flex-grow: 1;
+    gap: 1rem;
+}
+
+.orgUnitContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.leftTable, .rightTable {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftTable {
+    flex: 65 1 0%; /* Flex-grow: 65; Flex-shrink: 1; Flex-basis: 0 */
+    padding-right: 10px;
+    gap: 0.5rem;
+}
+
+.rightTable {
+    flex: 35 1 0%; /* Flex-grow: 35; Flex-shrink: 1; Flex-basis: 0 */
+    gap: 0.5rem;
+}
+
+.noData, .chooseDataSet {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loadingWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.tableRow {
+    height: 20px;
+    border: 1px solid #000;
+}
+
+.validationTableRow {
+    height: 40px;
+    background-color: #964B00;
+}
+
+.outlierTableRow {
+    height: 40px;
+    background-color: #F5F5F5;
+}
+
+.validationMessage {
+    background-color: #c8ffd5;
+    border: 1px solid #00741b;
+    border-radius: 5px;
+    padding: 5px;
+    color: #155724;
+    text-align: center;
+}
+
+.smoothModal {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.smoothModal.d2-ui-modal-entered {
+    opacity: 1;
+}
+@media print {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    .displayContainer {
+        margin: 0;
+    }
+}
