@@ -27,7 +27,7 @@
         "start-server-and-test": "^1.13.1"
     },
     "dependencies": {
-        "@dhis2/app-runtime": "^3.2.1",
+        "@dhis2/app-runtime": "^3.14.1",
         "@dhis2/prop-types": "^1.6.4",
         "@dhis2/ui": "^7.2.7",
         "@fortawesome/free-solid-svg-icons": "^6.5.2",
