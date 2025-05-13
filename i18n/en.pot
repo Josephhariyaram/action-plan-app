@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2025-05-08T07:56:33.614Z\n"
-"PO-Revision-Date: 2025-05-08T07:56:33.614Z\n"
+"POT-Creation-Date: 2025-05-13T01:13:14.211Z\n"
+"PO-Revision-Date: 2025-05-13T01:13:14.211Z\n"
 
 msgid "Not authorized"
 msgstr "Not authorized"
@@ -68,6 +68,9 @@ msgstr "Unapproval failed: {{error}}"
 msgid "Unapprove"
 msgstr "Unapprove"
 
+msgid "Comment"
+msgstr "Comment"
+
 msgid "Save"
 msgstr "Save"
 
@@ -126,9 +129,6 @@ msgstr "Data Element with Data Quality issue / ອົງປະກອບຂໍ້
 
 msgid "Correct Data"
 msgstr "Correct Data"
-
-msgid "Comment"
-msgstr "Comment"
 
 msgid "Validation Rule Violations"
 msgstr "Validation Rule Violations"
